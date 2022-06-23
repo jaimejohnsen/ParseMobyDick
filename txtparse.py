@@ -11,3 +11,7 @@ for line in data: # files are iterable
     per_word = read_data.split()
 
 print('Total Words:', len(per_word))
+
+number_of_characters = len(per_word)
+
+print('Number of characters in text file :', number_of_characters)
